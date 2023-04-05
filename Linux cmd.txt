@@ -1,0 +1,30 @@
+ec2-user
+sudo su : to go to root user
+yum update -y : to update repository
+yum install httpd -y : to install web server
+systemctl enable httpd : to enable httpd service 
+systemctl start  httpd : to start httpd service
+cd /var/www/html : to go html folder
+vi index.html
+esc i
+<h1>Hello world welcome to anil aws</h1>
+esc 
+shift+: wq(save and quit)
+
+
+cd .. : to go back directory
+ls : list of folders
+cd www: to go particulat directory/file
+pwd : present working directory
+mkdir anil : to create directory
+rmdir : directory should be empty
+touch f1 : to create file in folderls
+rm : remove file(file need not to be empty)
+ctrl+c : to terminate the running command
+ctrl+A : to move the begining of the line
+ctrl+E : to bring you the end of the line
+du : to know the disk usage of a file in your system
+ping ip : check your connection to a server
+clear : to clear the terminal
+sudo halt : to power off the system
+sudo reboot : to rebbot the system
